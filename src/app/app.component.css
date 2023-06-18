@@ -1,0 +1,159 @@
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form > div {
+  margin-bottom: 10px;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="date"],
+form input[type="email"] {
+  width: 250px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"],
+button.add-contact-btn {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.add-contact-btn {
+  background-color: #4285F4;
+  margin-top: 10px;
+}
+
+/* Registered People Styles */
+
+.registered-people {
+  margin-top: 40px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+}
+
+.registered-people h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.registered-people li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  color: #555;
+}
+
+.registered-people li:last-child {
+  border-bottom: none;
+}
+
+.registered-people strong {
+  font-weight: bold;
+  color: #333;
+}
+
+.registered-people ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.registered-people ul li {
+  margin-bottom: 5px;
+  color: #777;
+}
+
+/* General Styles */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+h1,h2{
+  text-align: center;
+}
+
+.form-field {
+  width: 100%; /* Defina o tamanho desejado */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.remove-button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 16px;
+}
+
+.remove-button:hover {
+  background-color: #c82333;
+}
+
+.remove-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button-group {
+  padding: 16px;
+}
+
+ul li{
+  list-style: none;
+}
