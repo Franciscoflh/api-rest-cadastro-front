@@ -50,7 +50,6 @@ button.add-contact-btn {
   margin-top: 10px;
 }
 
-/* Registered People Styles */
 
 .registered-people {
   margin-top: 40px;
@@ -90,8 +89,6 @@ button.add-contact-btn {
   color: #777;
 }
 
-/* General Styles */
-
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -119,7 +116,7 @@ h1,h2{
 }
 
 .form-field {
-  width: 100%; /* Defina o tamanho desejado */
+  width: 100%;
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
